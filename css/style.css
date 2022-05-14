@@ -338,3 +338,12 @@ footer {
   font-weight: 700;
   font-size: 1.4rem;
 }
+
+.lastDiv {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+}
+
+.lastDiv a {
+  color: white;
+}
