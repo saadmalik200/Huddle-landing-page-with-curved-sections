@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* margin: auto; */
+}
+
+:root {
+  font-size: 62.5%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+body {
+  font-size: 1.6rem;
+  width: 144rem;
+  /* width: 100%; */
+  border: 1px solid black;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  padding: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerLogo img {
+  width: 20rem;
+}
+
+.headerButton button {
+  background-color: transparent;
+  padding: 0.5rem 2rem;
+  color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 5rem;
+}
+
+.section1 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 75%;
+  margin-top: 10rem;
+}
+
+.section1 h1 {
+  font-size: 5rem;
+}
+
+.section1 p {
+  display: block;
+  margin: 0 auto;
+  /* text-align: center; */
+  width: 65%;
+  font-size: 2.2rem;
+  margin-top: 1.5rem;
+}
+
+.pinkButton {
+  background-color: hsl(322, 100%, 66%);
+  margin-top: 3rem;
+  padding: 2rem 10rem;
+  border-radius: 4rem;
+  outline: none;
+  border: 0;
+  box-shadow: 5px 5px 5px rgb(189, 186, 186);
+  color: white;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.section2 {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.section2 .backImg1 {
+  background-image: url(../images/screen-mockups.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* width: 80%; */
+  background-position: center;
+  /* height: 90rem; */
+  padding: 45rem;
+}
+
+.twoColLogo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.twoColLogo div p:nth-of-type(1) {
+  /* color: hsl(207, 100%, 98%); */
+  font-size: 10rem;
+  font-weight: 700;
+}
+
+.twoColLogo div p:nth-of-type(2) {
+  color: hsl(210, 2%, 45%);
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.bkGdTop {
+  background-image: url(../images/bg-section-top-desktop-1.svg);
+  /* height: 10rem; */
+  background-size: 100% 100%;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center right;
+  padding: 5rem;
+  margin-top: 15rem;
+}
+
+.section3div {
+  margin: 0rem auto;
+  padding: 10rem;
+  display: flex;
+  background-color: hsl(207, 100%, 98%);
+}
+
+.section3 article:nth-of-type(1) {
+  margin: auto 0;
+  width: 50%;
+}
+
+.section3 article:nth-of-type(1) p {
+  margin: auto 0;
+  width: 85%;
+  margin-top: 2rem;
+}
+
+.section3 article:nth-of-type(2) {
+  margin: auto 0;
+  width: 50%;
+}
+
+.section3 article:nth-of-type(2) img {
+  width: 90%;
+  margin-left: 5rem;
+  /* margin: 0 auto; */
+}
+
+.bkGdBottom {
+  background-image: url(../images/bg-section-bottom-desktop-1.svg);
+  /* height: 10rem; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5rem;
+  /* margin-top: 20rem; */
+}
+
+.section4 {
+  display: flex;
+  /* width: 85%; */
+  margin: 10rem auto;
+  padding: 10rem;
+}
+
+.section4 article:nth-of-type(2) {
+  margin: auto 0;
+  width: 50%;
+  margin-left: 2rem;
+  padding-left: 8rem;
+}
+
+.section4 article:nth-of-type(2) p {
+  margin: auto 0;
+  width: 100%;
+  margin-top: 2rem;
+  /* margin-left: 2rem; */
+}
+
+.section4 article:nth-of-type(1) {
+  margin: auto 0;
+  width: 50%;
+}
+
+.section4 article:nth-of-type(1) img {
+  width: 90%;
+  /* margin: 0 auto; */
+}
+
+.bkGdTop2 {
+  background-image: url(../images/bg-section-top-desktop-2.svg);
+  /* height: 10rem; */
+  background-size: 100% 100%;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center right;
+  padding: 5rem;
+  margin-top: 5rem;
+}
+
+.section5div {
+  margin: 0rem auto;
+  padding: 10rem;
+  display: flex;
+  background-color: hsl(207, 100%, 98%);
+}
+
+.section5 article:nth-of-type(1) {
+  margin: auto 0;
+  width: 50%;
+  margin-left: 2rem;
+  /* padding-left: 8rem; */
+}
+
+.section5 article:nth-of-type(1) p {
+  margin: auto 0;
+  width: 85%;
+  margin-top: 2rem;
+  /* margin-left: 2rem; */
+}
+
+.section5 article:nth-of-type(2) {
+  margin: auto 0;
+  width: 50%;
+}
+
+.section5 article:nth-of-type(2) img {
+  width: 90%;
+  margin-left: 5rem;
+}
+
+.bkGdBottom2 {
+  background-image: url(../images/bg-section-bottom-desktop-2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5rem;
+}
+
+.section6 {
+  text-align: center;
+  margin: 20rem auto;
+}
+
+footer {
+  color: white;
+}
+
+.backImgFoot {
+  /* background-color: wheat; */
+  background-image: url(../images/bg-footer-top-desktop.svg);
+
+  background-repeat: no-repeat;
+  background-position: top bottom;
+  padding: 10rem;
+  padding-bottom: 5rem;
+}
+
+.footerDiv {
+  display: flex;
+  padding: 10rem;
+  background-color: hsl(192, 100%, 9%);
+}
+
+.footerDiv section:nth-of-type(1) article {
+  width: 65%;
+}
+
+.footerDiv section:nth-of-type(1) article:nth-of-type(1) p {
+  /* width: 75%; */
+  margin: 3rem 0;
+}
+
+.footerDiv section:nth-of-type(1) article:nth-of-type(2) * {
+  display: inline-block;
+}
+
+.footerDiv section:nth-of-type(1) article:nth-of-type(2) div {
+  margin: 1rem 0;
+}
+
+.bottomLogo {
+  margin-top: 6rem;
+}
+
+.bottomLogo img {
+  margin-right: 2rem;
+}
+
+.footerDiv section:nth-of-type(2) article {
+  margin-left: 25rem;
+  width: 70%;
+}
+
+.footerDiv section:nth-of-type(2) article h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+}
+
+.footerDiv section:nth-of-type(2) article p {
+  width: 75%;
+  margin: 3rem 0;
+}
+
+.footerDiv section:nth-of-type(2) article input {
+  padding: 1.5rem 6rem;
+  border-radius: 0.7rem;
+}
+
+.footerDiv section:nth-of-type(2) article button {
+  background-color: hsl(322, 100%, 66%);
+  margin-left: 3rem;
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  border-radius: 0.7rem;
+  outline: none;
+  border: 0;
+
+  color: white;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
