@@ -351,6 +351,14 @@ footer {
   color: white;
 }
 
+input:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 /* MEDIA QUERY STARTS FROM HERE */
 
 /* 
