@@ -27,7 +27,8 @@ h2 {
 
 body {
   font-size: 1.6rem;
-  width: 144rem;
+  max-width: 144rem;
+  margin: 0 auto;
   /* width: 100%; */
   /* border: 1px solid black; */
   font-family: "Open Sans", sans-serif;
@@ -95,12 +96,12 @@ header {
 }
 .section2 .backImg1 {
   background-image: url(../images/screen-mockups.svg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  /* width: 80%; */
+  /* max-width: 100%; */
   background-position: center;
   /* height: 90rem; */
-  padding: 39rem;
+  padding: 40rem 0;
 }
 
 .twoColLogo {
