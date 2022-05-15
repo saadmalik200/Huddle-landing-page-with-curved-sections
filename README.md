@@ -25,7 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
+#### Desktop Version
+
 ![Desktop Layout](./images/Screenshot%20Desktop.png)
+
+#### Mobile Version
+
 ![Mobile Layout](./images/Screenshot%20Mobile.png)
 
 ### Links
