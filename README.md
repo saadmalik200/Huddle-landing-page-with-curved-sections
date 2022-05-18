@@ -5,9 +5,11 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 ## Table of contents
 
 - [Overview](#overview)
+  - [Link](#link)
   - [The challenge](#the-challenge)
+  
   - [Screenshot](#screenshot)
-  - [Links](#links)
+  
 - [My process](#my-process)
 
   - [Built with](#built-with)
@@ -15,6 +17,11 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 - [Author](#author)
 
 ## Overview
+
+### Link
+
+- Live Site URL: [https://saadmalik200.github.io/Huddle-landing-page-with-curved-sections/](https://saadmalik200.github.io/Huddle-landing-page-with-curved-sections/)
+
 
 ### The challenge
 
@@ -33,10 +40,6 @@ Users should be able to:
 
 ![Mobile Layout](./images/Screenshot%20Mobile.png)
 
-### Links
-
-- Solution URL: [https://github.com/saadmalik200/Huddle-landing-page-with-curved-sections#the-challenge](https://github.com/saadmalik200/Huddle-landing-page-with-curved-sections#the-challenge)
-- Live Site URL: [https://saadmalik200.github.io/Huddle-landing-page-with-curved-sections/](https://saadmalik200.github.io/Huddle-landing-page-with-curved-sections/)
 
 ## My process
 
